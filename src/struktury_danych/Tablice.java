@@ -1,6 +1,6 @@
 package struktury_danych;
 
-/*
+
 public class Tablice {
 
     public void liczbyOdKoncaNaParzystychIndeksach(int[] tab) {
@@ -49,7 +49,7 @@ public class Tablice {
 
 
 
-*/
+/*
 public class Tablice {
 
     private int liczba;
@@ -130,3 +130,5 @@ public class Tablice {
     }
 
 }
+*/
+// zobaczyc zmiane chce
