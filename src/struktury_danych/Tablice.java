@@ -27,13 +27,13 @@ public class Tablice {
      public void wymikSumy5PierwLiczbMinusOstatnia(int[] tab) {
          //wynik sumy 5 początkowych liczb i odejmując ostatni element, zakładając,
          // że tablica jest rozmiaru co najmniej 6.   (Do domu)
-         //   int suma = 0;
-         //   for (int i = 0; i <= tab.length; i++)
-         //   if (tab[i]<=tab[5])
-         //   suma = suma+=tab[i];
-         //       System.out.println(suma);
+         int suma = 0;
+             for(int i = 0; i <= 4; i++) {
+                 suma = suma + tab[i];
+                 System.out.println(suma);
+             }
+         }
 
-    }
 
 
     public static void main(String[] args) {
