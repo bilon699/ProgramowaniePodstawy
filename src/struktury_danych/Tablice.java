@@ -1,6 +1,6 @@
 package struktury_danych;
 
-/*
+
 public class Tablice {
 
     public void liczbyOdKoncaNaParzystychIndeksach(int[] tab) {
@@ -15,9 +15,11 @@ public class Tablice {
         //wypisz sume liczb w tablicy podzielnych przez 3
         //for (int i = tab.length - 1; i >=0 ; i--)
          int suma = 0;
-         for (int i = 0; i < tab.length; i++)
-            if (tab[i]%3 == 0)
-                suma = suma + tab[i];  //inaczej: suma += tab[i];
+         for (int i = 0; i < tab.length; i++) {
+             if (tab[i]%3 == 0) {
+                 suma = suma + tab[i];  //inaczej: suma += tab[i];
+             }
+         }
                 System.out.println("\n" + "suma podzielnych przez 3 = " + suma);
 
      }
@@ -45,8 +47,9 @@ public class Tablice {
 
     }
 
- */
 
+
+/*
 public class Tablice {
 
     private int liczba;
@@ -127,3 +130,4 @@ public class Tablice {
     }
 
 }
+*/
