@@ -36,6 +36,7 @@ public class StosTablica {    // stos w postaci tablicy
     public int size() {
         return top + 1;
     }
+
     public boolean isEmpty(){   //sprawdzenie czy stos jest pusty
         if (top == -1) {
             return true;

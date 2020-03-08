@@ -1,6 +1,6 @@
 package struktury_danych;
 
-/*
+
 public class Tablice {
 
     public void liczbyOdKoncaNaParzystychIndeksach(int[] tab) {
@@ -15,9 +15,11 @@ public class Tablice {
         //wypisz sume liczb w tablicy podzielnych przez 3
         //for (int i = tab.length - 1; i >=0 ; i--)
          int suma = 0;
-         for (int i = 0; i < tab.length; i++)
-            if (tab[i]%3 == 0)
-                suma = suma + tab[i];  //inaczej: suma += tab[i];
+         for (int i = 0; i < tab.length; i++) {
+             if (tab[i]%3 == 0) {
+                 suma = suma + tab[i];  //inaczej: suma += tab[i];
+             }
+         }
                 System.out.println("\n" + "suma podzielnych przez 3 = " + suma);
 
      }
@@ -25,13 +27,13 @@ public class Tablice {
      public void wymikSumy5PierwLiczbMinusOstatnia(int[] tab) {
          //wynik sumy 5 początkowych liczb i odejmując ostatni element, zakładając,
          // że tablica jest rozmiaru co najmniej 6.   (Do domu)
-         //   int suma = 0;
-         //   for (int i = 0; i <= tab.length; i++)
-         //   if (tab[i]<=tab[5])
-         //   suma = suma+=tab[i];
-         //       System.out.println(suma);
+         int suma = 0;
+             for(int i = 0; i <= 4; i++) {
+                 suma = suma + tab[i];
+                 System.out.println(suma);
+             }
+         }
 
-    }
 
 
     public static void main(String[] args) {
@@ -45,8 +47,9 @@ public class Tablice {
 
     }
 
- */
 
+
+/*
 public class Tablice {
 
     private int liczba;
@@ -127,3 +130,5 @@ public class Tablice {
     }
 
 }
+*/
+// zobaczyc zmiane chce
