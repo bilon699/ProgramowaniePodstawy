@@ -6,8 +6,13 @@
           <option name="url" value="http://github.com" />
           <option name="userName" value="bilon699" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/jakub-olszewski/tarr2019java6-tdd.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
+    <option name="cloneParentDir" value="C:\Users\Programowanie\Desktop\git\TestOprogramowania" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ORDER">
