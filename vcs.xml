@@ -26,6 +26,10 @@
           <option name="url" value="https://github.com/emilgajecki/spring-cytaty" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Tarr2019Java1/trener" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Programowanie\Desktop\git" />
